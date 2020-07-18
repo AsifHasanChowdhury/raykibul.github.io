@@ -1,0 +1,73 @@
+body{
+    font-family: 'Baloo Bhaina 2', cursive;
+    padding: 0px;
+    margin:  0px;
+   background:url('/img/back.jpg');  
+}
+
+.left{
+  position: absolute;
+  left: 32px;
+  top: 18px;
+  display: inline-block;
+  
+}
+.title{
+    display: inline-block;
+    align-items: center;
+    margin-left: 5px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.left img{
+    width: 50px;
+     
+  }
+.mid{
+    display: block;
+    width: 50%;
+    margin:18px auto;
+    padding: 10px;
+     
+}
+.right{
+    position: absolute;
+    right: 32px;
+    top:  16px;
+    display: inline-block;
+}
+.navbar{
+    
+    display: inline;
+}
+.navbar li{
+    display: inline;
+    padding: 10px;
+    margin: 5px;
+   
+ }
+
+ .navbar li a{
+     color:  white;
+     text-decoration: none;
+ }
+ .navbar li a:hover,.navbar li a.active{
+    color: palevioletred;
+    text-decoration: underline;
+}
+
+/* right corner  */
+.btn{
+    padding: 8px;
+    margin: 8px;
+    background-color:palevioletred;
+    color: white;
+    border: 2px solid white ;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:rgb(116, 10, 28);
+}
